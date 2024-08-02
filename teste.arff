@@ -1,0 +1,144 @@
+@relation 'Planilha_oficial_filtrada-weka.filters.unsupervised.attribute.Remove-R49,54-weka.filters.unsupervised.attribute.Remove-R39-42-weka.filters.unsupervised.attribute.Remove-R38_clustered'
+
+@attribute Instance_number numeric
+@attribute Curso {'Ciência da Computação','Sistemas de Informação'}
+@attribute Idade {'20 - 25','25 - 30','17 - 20','30 - 35'}
+@attribute Entrada numeric
+@attribute Gênero {Homem,Queer,Mulher}
+@attribute Sexualidade {'Prefiro não responder',Homossexual,Heterossexual,Pansexual,Bissexual,Assexual}
+@attribute 'Piadas machistas CA' numeric
+@attribute 'Comentários de natureza sexual CA' numeric
+@attribute 'Olhares ou gestos sugestivos indesejados CA' numeric
+@attribute 'Mensagens ou ligações telefônicas indesejadas CA' numeric
+@attribute 'Convites indesejados CA' numeric
+@attribute 'Toques indesejados CA' numeric
+@attribute 'Insistência para encontro sexuais indesejados CA' numeric
+@attribute 'Piadas de cunho discriminatório CA' numeric
+@attribute 'Sofreu crítica ao seu trabalho CA' numeric
+@attribute 'Atribuição proposital e sistemática de tarefas CA' numeric
+@attribute 'Isolamento do restante do grupo CA' numeric
+@attribute 'Ignorar sua presença CA' numeric
+@attribute 'Ser desacreditada CA' numeric
+@attribute 'Ameaçada/o de violência física CA' numeric
+@attribute 'Agredida/o fisicamente CA' numeric
+@attribute 'Elogiavam constantemente CA' numeric
+@attribute 'Piadas machistas AS' numeric
+@attribute 'Comentários de natureza sexual AS' numeric
+@attribute 'Olhares ou gestos sugestivos indesejados AS' numeric
+@attribute 'Mensagens ou ligações telefônicas indesejadas AS' numeric
+@attribute 'Convites indesejados AS' numeric
+@attribute 'Toques indesejados AS' numeric
+@attribute 'Insistência para encontro sexuais indesejados AS' numeric
+@attribute 'Piadas de cunho discriminatório AS' numeric
+@attribute 'Sofreu crítica ao seu trabalho AS' numeric
+@attribute 'Atribuição proposital e sistemática AS' numeric
+@attribute 'Isolamento do restante do grupo AS' numeric
+@attribute 'Ignorar sua presença AS' numeric
+@attribute 'Ser desacreditada/o AS' numeric
+@attribute 'Ameaçada/o de violência física AS' numeric
+@attribute 'Agredida/o fisicamente AS' numeric
+@attribute 'Elogiavam constantemente AS' numeric
+@attribute VG2 numeric
+@attribute VM3 numeric
+@attribute VG3 numeric
+@attribute VG4 numeric
+@attribute VG5 numeric
+@attribute VM1 numeric
+@attribute VG6 numeric
+@attribute IV1 numeric
+@attribute IV2 numeric
+@attribute VM2 numeric
+@attribute Cluster {cluster0,cluster1}
+
+@data
+0,'Ciência da Computação','20 - 25',2020,Homem,'Prefiro não responder',0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,1,1,1,2,4,5,5,1,cluster1
+1,'Sistemas de Informação','20 - 25',2020,Queer,Homossexual,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,1,1,1,?,3,1,3,7,2,1,cluster1
+2,'Ciência da Computação','20 - 25',2020,Homem,Homossexual,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,1,1,1,0,0,0,0,1,0,0,0,0,0,0,0,0,2,1,2,2,1,1,4,7,5,1,cluster0
+3,'Ciência da Computação','20 - 25',2017,Homem,Heterossexual,1,1,0,0,0,0,0,1,0,0,0,0,0,0,0,0,1,1,0,0,0,0,0,1,0,0,0,0,0,0,0,0,?,1,?,?,?,3,?,3,7,2,cluster0
+4,'Ciência da Computação','20 - 25',2019,Homem,Heterossexual,1,0,0,0,0,0,0,1,1,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,1,1,0,0,0,0,0,0,?,1,?,?,?,1,?,0,7,4,cluster0
+5,'Ciência da Computação','20 - 25',2022,Homem,Homossexual,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,1,1,1,1,5,2,0,3,cluster1
+6,'Ciência da Computação','20 - 25',2021,Mulher,Pansexual,1,0,1,0,0,0,0,1,1,0,0,0,0,0,0,0,1,0,0,0,0,0,0,1,1,1,1,1,1,0,0,0,4,3,5,?,2,3,4,2,8,1,cluster0
+7,'Ciência da Computação','20 - 25',2019,Homem,Heterossexual,1,0,0,0,0,0,0,1,0,0,0,0,1,0,0,1,1,1,1,1,0,1,1,1,0,0,0,1,0,0,0,1,1,1,1,1,1,3,2,2,8,3,cluster0
+8,'Ciência da Computação','20 - 25',2022,Mulher,Bissexual,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,0,0,0,0,0,1,1,1,0,1,0,0,0,1,5,4,5,5,5,5,5,0,8,5,cluster0
+9,'Ciência da Computação','20 - 25',2023,Mulher,Heterossexual,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,3,2,3,3,1,1,4,1,5,?,cluster0
+10,'Ciência da Computação','20 - 25',2020,Homem,Heterossexual,0,0,0,0,0,0,0,1,0,1,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,1,0,1,0,0,0,0,?,2,?,?,?,4,4,3,6,5,cluster1
+11,'Ciência da Computação','25 - 30',2013,Homem,Heterossexual,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,1,1,1,1,3,10,0,1,cluster1
+12,'Ciência da Computação','20 - 25',2021,Mulher,Heterossexual,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,1,1,1,1,5,4,5,1,cluster0
+13,'Ciência da Computação','17 - 20',2023,Mulher,Heterossexual,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,1,0,0,0,0,1,1,0,0,0,0,0,0,0,4,1,2,?,5,4,2,2,6,1,cluster0
+14,'Ciência da Computação','20 - 25',2019,Homem,Homossexual,1,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,1,1,1,1,1,4,3,2,1,cluster1
+15,'Ciência da Computação','20 - 25',2021,Homem,Heterossexual,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,1,1,1,1,?,10,0,1,cluster1
+16,'Ciência da Computação','20 - 25',2019,Homem,Heterossexual,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,1,1,1,1,3,1,5,1,cluster1
+17,'Ciência da Computação','20 - 25',2019,Mulher,Heterossexual,1,0,0,0,0,0,0,1,1,0,0,0,0,0,0,0,1,0,1,1,0,1,0,0,0,0,1,1,0,0,0,0,4,4,2,1,1,1,5,6,8,1,cluster0
+18,'Ciência da Computação','20 - 25',2020,Homem,Heterossexual,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,?,1,?,?,?,1,?,0,0,1,cluster1
+19,'Ciência da Computação','20 - 25',2021,Mulher,Bissexual,1,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,1,1,1,0,1,0,0,1,0,0,0,1,0,0,0,0,3,5,5,?,4,3,4,0,6,3,cluster0
+20,'Ciência da Computação','20 - 25',2020,Homem,Heterossexual,1,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,1,0,1,0,0,0,0,1,0,0,0,0,0,0,0,0,1,1,1,1,1,1,4,0,0,1,cluster0
+21,'Sistemas de Informação','30 - 35',2021,Mulher,Heterossexual,1,0,0,0,0,0,0,1,1,0,0,0,0,0,0,0,1,1,0,0,0,0,0,0,0,0,1,0,0,0,0,0,4,3,2,2,4,1,3,4,7,1,cluster0
+22,'Ciência da Computação','20 - 25',2020,Homem,Heterossexual,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,2,1,1,1,1,1,4,4,0,1,cluster1
+23,'Sistemas de Informação','25 - 30',2021,Mulher,Heterossexual,1,0,0,0,0,0,0,1,0,0,0,1,1,0,0,0,0,0,0,0,0,1,0,0,0,0,1,0,0,0,0,0,4,3,5,5,5,3,?,0,10,5,cluster0
+24,'Ciência da Computação','20 - 25',2020,Homem,Heterossexual,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,0,0,0,0,1,2,1,1,1,1,3,4,2,1,cluster1
+25,'Sistemas de Informação','30 - 35',2023,Queer,Heterossexual,1,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,1,1,0,1,0,0,0,1,0,0,1,1,0,0,0,0,3,3,3,3,3,2,2,3,5,3,cluster0
+26,'Sistemas de Informação','20 - 25',2022,Homem,Heterossexual,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,2,1,1,1,1,2,10,4,1,cluster1
+27,'Ciência da Computação','20 - 25',2017,Mulher,Bissexual,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,1,0,0,1,1,0,0,0,0,4,4,4,1,4,2,5,6,0,1,cluster0
+28,'Ciência da Computação','20 - 25',2019,Mulher,Heterossexual,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,1,1,1,1,1,3,7,0,1,cluster1
+29,'Ciência da Computação','25 - 30',2017,Homem,Homossexual,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,2,1,1,3,1,2,2,7,1,cluster1
+30,'Ciência da Computação','20 - 25',2021,Homem,Heterossexual,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,1,3,1,1,1,1,3,7,0,2,cluster1
+31,'Sistemas de Informação','20 - 25',2018,Homem,Heterossexual,0,0,0,0,0,0,0,1,0,0,0,0,1,0,0,0,0,1,0,0,0,0,0,1,0,1,0,0,0,0,0,0,?,2,?,?,?,1,?,3,3,1,cluster1
+32,'Sistemas de Informação','20 - 25',2021,Mulher,Assexual,1,0,0,0,0,0,0,1,1,0,0,0,0,0,0,0,1,1,0,0,0,0,0,1,0,0,1,0,0,0,0,0,4,3,4,4,3,2,4,6,2,1,cluster0
+33,'Sistemas de Informação','20 - 25',2020,Mulher,Bissexual,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,1,0,0,0,0,1,0,0,0,3,2,1,?,1,1,4,9,1,1,cluster0
+34,'Sistemas de Informação','17 - 20',2023,Mulher,Bissexual,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,0,0,0,0,1,0,0,0,0,0,0,0,0,0,2,1,2,2,3,1,3,10,0,1,cluster0
+35,'Sistemas de Informação','17 - 20',2023,Homem,Heterossexual,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,1,1,1,1,3,9,0,1,cluster1
+36,'Sistemas de Informação','20 - 25',2023,Homem,Heterossexual,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,?,1,1,?,?,1,1,10,0,1,cluster1
+37,'Sistemas de Informação','30 - 35',2017,Homem,Heterossexual,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,1,1,1,1,3,7,1,1,cluster1
+38,'Sistemas de Informação','20 - 25',2023,Homem,Bissexual,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,1,1,1,1,5,9,0,1,cluster1
+39,'Sistemas de Informação','20 - 25',2023,Homem,Heterossexual,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,1,1,1,1,?,4,?,1,cluster1
+40,'Sistemas de Informação','17 - 20',2023,Homem,Heterossexual,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,1,1,1,1,4,6,0,1,cluster1
+41,'Sistemas de Informação','17 - 20',2022,Mulher,Bissexual,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,1,0,1,0,0,0,1,0,0,0,0,3,2,1,3,1,1,2,5,6,1,cluster0
+42,'Sistemas de Informação','17 - 20',2023,Homem,Bissexual,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,1,1,?,1,2,3,?,?,1,cluster1
+43,'Sistemas de Informação','20 - 25',2023,Homem,Pansexual,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,1,1,1,1,4,10,1,1,cluster1
+44,'Sistemas de Informação','20 - 25',2021,Homem,Homossexual,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,1,0,0,1,0,1,0,0,0,0,0,0,0,1,2,1,2,?,4,3,2,4,5,2,cluster0
+45,'Sistemas de Informação','17 - 20',2023,Mulher,Homossexual,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,3,3,3,1,1,4,3,3,1,cluster1
+46,'Sistemas de Informação','17 - 20',2023,Homem,Heterossexual,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,3,1,1,1,1,5,9,0,1,cluster1
+47,'Ciência da Computação','20 - 25',2020,Homem,Heterossexual,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,?,1,?,?,?,1,5,0,3,1,cluster1
+48,'Ciência da Computação','20 - 25',2021,Homem,Heterossexual,1,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,?,5,?,?,?,3,4,5,0,2,cluster1
+49,'Sistemas de Informação','17 - 20',2023,Mulher,Heterossexual,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,?,?,4,1,2,7,0,1,cluster1
+50,'Sistemas de Informação','20 - 25',2022,Homem,Heterossexual,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,1,1,1,1,4,5,7,1,cluster1
+51,'Sistemas de Informação','20 - 25',2020,Mulher,Homossexual,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,1,0,0,0,0,0,1,3,1,3,1,1,3,7,5,1,cluster1
+52,'Ciência da Computação','20 - 25',2021,Homem,Heterossexual,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,1,1,1,1,5,7,0,1,cluster1
+53,'Ciência da Computação','17 - 20',2021,Mulher,Heterossexual,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,1,1,1,1,1,5,0,1,cluster1
+54,'Ciência da Computação','20 - 25',?,Mulher,Heterossexual,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,1,1,1,1,5,5,?,1,cluster1
+55,'Ciência da Computação','25 - 30',2017,Homem,?,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,?,3,?,?,?,1,5,10,5,3,cluster1
+56,'Ciência da Computação','20 - 25',2021,Homem,Heterossexual,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,1,1,1,1,5,10,0,1,cluster1
+57,'Ciência da Computação','20 - 25',2018,Homem,Heterossexual,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,2,1,1,1,1,3,7,0,1,cluster1
+58,'Ciência da Computação','20 - 25',2018,Mulher,Heterossexual,1,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,2,2,2,2,5,5,2,2,5,5,cluster0
+59,'Ciência da Computação','20 - 25',2020,Homem,Heterossexual,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,1,1,1,1,5,4,0,1,cluster1
+60,'Ciência da Computação','20 - 25',2023,Homem,Heterossexual,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,1,1,1,1,3,3,3,1,cluster1
+61,'Ciência da Computação','20 - 25',2019,Homem,Bissexual,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,1,4,1,1,1,3,3,1,1,1,cluster1
+62,'Ciência da Computação','20 - 25',2020,Homem,Heterossexual,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,?,1,?,?,?,1,4,4,2,1,cluster1
+63,'Ciência da Computação','20 - 25',2020,Homem,Homossexual,1,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,2,1,2,1,1,3,10,5,2,cluster1
+64,'Ciência da Computação','17 - 20',2020,Mulher,Heterossexual,1,0,0,0,0,0,0,1,1,0,0,0,1,0,0,0,1,1,0,1,1,0,0,1,0,0,0,0,0,0,0,0,1,1,1,1,1,1,5,8,3,1,cluster0
+65,'Ciência da Computação','20 - 25',2021,Homem,Heterossexual,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,2,1,1,1,1,3,7,0,2,cluster1
+66,'Ciência da Computação','20 - 25',2018,Homem,Heterossexual,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,4,1,1,1,2,3,6,3,2,cluster1
+67,'Sistemas de Informação','17 - 20',2021,Mulher,Heterossexual,0,0,0,0,0,0,0,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,0,0,0,0,1,3,1,1,1,2,1,7,5,2,cluster1
+68,'Sistemas de Informação','20 - 25',2021,Homem,Heterossexual,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,?,1,?,?,?,1,3,7,0,1,cluster1
+69,'Sistemas de Informação','20 - 25',2021,Mulher,Homossexual,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,2,3,1,2,3,5,1,1,cluster1
+70,'Sistemas de Informação','17 - 20',2021,Mulher,'Prefiro não responder',0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,1,?,3,1,2,7,2,2,cluster1
+71,'Ciência da Computação','20 - 25',2020,Homem,Heterossexual,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,0,0,0,0,?,3,?,?,?,1,3,4,2,1,cluster1
+72,'Sistemas de Informação','25 - 30',2021,Homem,Bissexual,1,0,0,0,0,0,0,1,0,0,0,0,1,0,0,1,1,1,0,0,0,0,0,1,0,0,0,0,0,0,0,1,3,2,2,2,2,5,5,9,6,5,cluster0
+73,'Sistemas de Informação','25 - 30',2015,Homem,Heterossexual,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,1,0,0,0,0,1,0,0,0,0,0,0,0,0,1,1,1,1,1,2,5,8,0,2,cluster0
+74,'Sistemas de Informação','20 - 25',2021,Homem,Heterossexual,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,1,1,1,1,4,10,0,3,cluster1
+75,'Sistemas de Informação','20 - 25',2018,Homem,Heterossexual,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,?,1,?,?,?,1,3,3,5,1,cluster1
+76,'Sistemas de Informação','25 - 30',2018,Homem,Heterossexual,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,0,0,0,0,0,1,0,0,1,0,0,0,0,0,1,3,1,1,1,3,3,5,0,4,cluster0
+77,'Sistemas de Informação','20 - 25',2018,Queer,Assexual,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,5,3,5,3,5,4,3,7,5,1,cluster0
+78,'Ciência da Computação','25 - 30',2017,Mulher,Assexual,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,0,0,0,0,3,2,4,3,4,4,2,0,8,4,cluster0
+79,'Ciência da Computação','20 - 25',2022,Homem,Homossexual,1,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,3,2,2,2,3,2,3,5,3,3,cluster1
+80,'Ciência da Computação','17 - 20',2022,Queer,Homossexual,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,0,0,0,1,0,1,0,0,0,0,0,0,0,0,4,1,?,?,5,5,3,1,5,4,cluster0
+81,'Ciência da Computação','17 - 20',2022,Homem,Heterossexual,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,?,1,?,?,?,1,?,9,10,1,cluster1
+82,'Ciência da Computação','20 - 25',?,Mulher,Bissexual,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,1,0,0,1,1,0,1,1,0,0,1,5,1,5,5,4,1,3,7,10,1,cluster0
+83,'Ciência da Computação','17 - 20',2022,Homem,Heterossexual,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,1,1,1,1,5,8,0,1,cluster1
+84,'Sistemas de Informação','20 - 25',2022,Mulher,Bissexual,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,1,0,0,1,1,1,0,0,0,3,3,3,2,1,1,?,1,5,1,cluster0
+85,'Ciência da Computação','17 - 20',2022,Homem,Bissexual,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,1,1,1,1,4,2,8,3,cluster1
+86,'Sistemas de Informação','25 - 30',2021,Mulher,Heterossexual,1,1,0,0,0,0,0,1,0,0,0,0,1,0,0,0,1,1,0,0,0,0,0,0,0,1,1,0,0,0,0,0,5,3,5,3,3,2,4,1,8,4,cluster0
+87,'Ciência da Computação','20 - 25',2020,Homem,Heterossexual,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,?,1,?,?,?,1,2,3,0,1,cluster1
+88,'Ciência da Computação','30 - 35',2015,Homem,Heterossexual,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,1,1,1,1,4,10,2,2,cluster1
+89,'Ciência da Computação','17 - 20',2022,Mulher,Assexual,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,1,0,1,0,0,0,0,0,0,0,0,3,1,2,?,2,2,4,8,2,2,cluster0
+90,'Sistemas de Informação','25 - 30',2021,Homem,Heterossexual,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,1,?,?,?,1,?,7,1,1,cluster1
